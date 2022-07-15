@@ -38,7 +38,6 @@ public class ClipBoardManager {
 
     private final PreferencesService preferencesService;
 
-
     public ClipBoardManager(PreferencesService preferencesService) {
         this(Clipboard.getSystemClipboard(), Toolkit.getDefaultToolkit().getSystemSelection(), preferencesService);
     }
